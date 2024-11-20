@@ -16,3 +16,19 @@ Place.create!(
   address: '588 Highway 133',
   city: 'Carbondale, CO'
 )
+
+InternetSpeed.create!(
+  place_id: Place.first.id,
+  download_speed: 25.55,
+  download_units: 'Mbps'
+)
+InternetSpeed.create!(
+  place_id: Place.first.id,
+  download_speed: 30.22,
+  download_units: 'Mbps'
+)
+InternetSpeed.create!(
+  place_id: Place.last.id,
+  download_speed: 55.55,
+  download_units: 'Mbps'
+)

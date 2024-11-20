@@ -1,0 +1,3 @@
+class InternetSpeed < ApplicationRecord
+  
+end
